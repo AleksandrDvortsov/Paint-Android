@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/colorPrimaryDark">
+
+    <com.example.sasha.paint.DrawCanvasView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <Button
+            android:id="@+id/cheakid"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="dell all"
+            android:onClick="clear"
+            android:textSize="9sp"
+            android:background="@color/colorIndigo"/>
+
+        <Button
+            android:id="@+id/idCurvas"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Curvas"
+            android:textSize="9sp"
+            android:background="@color/colorType"
+            />
+
+        <Button
+            android:id="@+id/idRectangel"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Rectangel"
+            android:textSize="7sp"
+            android:background="@color/colorType"
+            />
+
+        <Button
+            android:id="@+id/idCircle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Circle"
+            android:textSize="9sp"
+            android:background="@color/colorType"/>
+
+        <Button
+            android:id="@+id/idEllipse"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Ellipse"
+            android:textSize="9sp"
+            android:background="@color/colorType"
+            />
+
+        <Button
+            android:id="@+id/idLine"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Line"
+            android:textSize="9sp"
+            android:background="@color/colorType"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+        android:id="@+id/idSize10"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="20"
+        android:text="Size 10"
+        android:textSize="9sp"
+            android:background="@color/colorSize"
+            />
+
+        <Button
+            android:id="@+id/idSize20"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Size 20"
+            android:textSize="9sp"
+            android:background="@color/colorSize"
+            />
+
+        <Button
+            android:id="@+id/idSize40"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Size 40"
+            android:textSize="9sp"
+            android:background="@color/colorSize"
+            />
+
+        <Button
+            android:id="@+id/idColorRed"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Red"
+            android:textSize="9sp"
+            android:background="@color/colorRed"/>
+
+        <Button
+            android:id="@+id/idColorGreen"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Green"
+            android:textSize="9sp"
+            android:background="@color/colorGreen"/>
+
+        <Button
+            android:id="@+id/idColorBlue"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:text="Blue"
+            android:textSize="9sp"
+            android:background="@color/colorBlue"/>
+    </LinearLayout>
+
+</RelativeLayout>

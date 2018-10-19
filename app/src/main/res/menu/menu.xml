@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/width10"
+        app:showAsAction="never"
+        android:title="Width - 10"
+        />
+    <item
+        android:id="@+id/width20"
+        app:showAsAction="never"
+        android:title="Width - 20"
+        />
+    <item
+        android:id="@+id/width40"
+        app:showAsAction="never"
+        android:title="Width - 40"
+        />
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="never"
+        android:title="clear"
+        />
+
+    <item
+        android:id="@+id/ColorRed"
+        app:showAsAction="always"
+        android:title="RED"
+        />
+    <item
+        android:id="@+id/ColorGreen"
+        app:showAsAction="always"
+        android:title="GREEN"
+        />
+    <item
+        android:id="@+id/ColorBlue"
+        app:showAsAction="always"
+        android:title="BLUE"
+        />
+
+</menu>
